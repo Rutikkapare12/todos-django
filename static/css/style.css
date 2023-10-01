@@ -1,0 +1,27 @@
+form {
+  display: flex;
+  justify-content: space-between;
+}
+form input[type="text"] {
+  width: 500px;
+  padding: 12px 14px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+ul{
+    padding: 0;
+}
+input[type="checkbox"] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+  margin-left: 10px;
+  
+}
+
+
+
